@@ -1,0 +1,29 @@
+#ans 1
+def ansone():
+    
+    a=range(12,72,3)
+    j=0
+    k=0
+    b=[]
+    c=[]
+    for i in range (0,len(a)) :
+        if a[i]%2==0:
+            b.insert(j,a[i])
+            j=j+1
+        else:
+            c.insert(k,a[i])
+            k=k+1
+    print "list with even numbers" ,b
+    b.sort()
+    print b
+    print "list with odd numbers" ,c
+    print a
+    print "part 2"
+    b.reverse()
+    c.reverse()
+    d=b,c
+    print d
+ansone()
+
+
+    

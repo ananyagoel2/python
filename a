@@ -1,0 +1,564 @@
+Python 2.7.3 (default, Apr 10 2012, 23:31:26) [MSC v.1500 32 bit (Intel)] on win32
+Type "copyright", "credits" or "license()" for more information.
+>>> help list
+SyntaxError: invalid syntax
+>>> list
+<type 'list'>
+>>> range(12,72,3)
+[12, 15, 18, 21, 24, 27, 30, 33, 36, 39, 42, 45, 48, 51, 54, 57, 60, 63, 66, 69]
+>>> a=range(12,72,3)
+>>> for i in range (0,length(a)) :
+	print "hello"
+
+	
+
+Traceback (most recent call last):
+  File "<pyshell#6>", line 1, in <module>
+    for i in range (0,length(a)) :
+NameError: name 'length' is not defined
+>>> size a
+SyntaxError: invalid syntax
+>>> size(a)
+
+Traceback (most recent call last):
+  File "<pyshell#8>", line 1, in <module>
+    size(a)
+NameError: name 'size' is not defined
+>>> len (a)
+20
+>>> for i in range (0,len(a)) :
+	print "hello"
+
+	
+hello
+hello
+hello
+hello
+hello
+hello
+hello
+hello
+hello
+hello
+hello
+hello
+hello
+hello
+hello
+hello
+hello
+hello
+hello
+hello
+>>> for i in range (0,len(a)) :
+	if a(i)%2==0
+	
+SyntaxError: invalid syntax
+>>> for i in range (0,len(a)) :
+	if a(i)%2==0:
+		b[j]=a[i}
+		
+SyntaxError: invalid syntax
+>>> for i in range (0,len(a)) :
+	if a(i)%2==0:
+		b(j)=a(i)
+		
+SyntaxError: can't assign to function call
+>>> for i in range (0,len(a)) :
+	if a(i)%2==0:
+		b(j)=a(i)
+		
+SyntaxError: can't assign to function call
+>>> b=1,2,3
+>>> b
+(1, 2, 3)
+>>> if b(i)%2==0:
+	print "hello"
+	print"double"
+
+	
+
+Traceback (most recent call last):
+  File "<pyshell#22>", line 1, in <module>
+    if b(i)%2==0:
+TypeError: 'tuple' object is not callable
+>>> for i in range (0,2) :
+	if b[i]%2==0:
+		
+		print "hello"
+		print"double"
+
+		
+hello
+double
+>>> ================================ RESTART ================================
+>>> 
+
+Traceback (most recent call last):
+  File "C:/Users/ananya goel/Desktop/ansone", line 17, in <module>
+    ansone()
+  File "C:/Users/ananya goel/Desktop/ansone", line 9, in ansone
+    b[j]=a[i]
+NameError: global name 'b' is not defined
+>>> ================================ RESTART ================================
+>>> 
+
+Traceback (most recent call last):
+  File "C:/Users/ananya goel/Desktop/ansone", line 19, in <module>
+    ansone()
+  File "C:/Users/ananya goel/Desktop/ansone", line 11, in ansone
+    b[j]=a[i]
+IndexError: list assignment index out of range
+>>> b=[]
+>>> i=0
+>>> b[i]=1
+
+Traceback (most recent call last):
+  File "<pyshell#27>", line 1, in <module>
+    b[i]=1
+IndexError: list assignment index out of range
+>>> ================================ RESTART ================================
+>>> 
+
+Traceback (most recent call last):
+  File "C:/Users/ananya goel/Desktop/ansone", line 19, in <module>
+    ansone()
+  File "C:/Users/ananya goel/Desktop/ansone", line 7, in ansone
+    b()
+NameError: global name 'b' is not defined
+>>> ================================ RESTART ================================
+>>> 
+
+Traceback (most recent call last):
+  File "C:/Users/ananya goel/Desktop/ansone", line 19, in <module>
+    ansone()
+  File "C:/Users/ananya goel/Desktop/ansone", line 11, in ansone
+    b[j]=a[i]
+IndexError: list assignment index out of range
+>>> ================================ RESTART ================================
+>>> 
+
+Traceback (most recent call last):
+  File "C:/Users/ananya goel/Desktop/ansone", line 19, in <module>
+    ansone()
+  File "C:/Users/ananya goel/Desktop/ansone", line 11, in ansone
+    b[j]=a[i]
+IndexError: list assignment index out of range
+>>> ================================ RESTART ================================
+>>> 
+
+Traceback (most recent call last):
+  File "C:/Users/ananya goel/Desktop/ansone", line 19, in <module>
+    ansone()
+  File "C:/Users/ananya goel/Desktop/ansone", line 11, in ansone
+    b[j]=a[i]
+IndexError: list assignment index out of range
+>>> ================================ RESTART ================================
+>>> 
+
+Traceback (most recent call last):
+  File "C:/Users/ananya goel/Desktop/ansone", line 19, in <module>
+    ansone()
+  File "C:/Users/ananya goel/Desktop/ansone", line 11, in ansone
+    b[j]=a[i]
+IndexError: list assignment index out of range
+>>> ================================ RESTART ================================
+>>> 
+
+Traceback (most recent call last):
+  File "C:/Users/ananya goel/Desktop/ansone", line 19, in <module>
+    ansone()
+  File "C:/Users/ananya goel/Desktop/ansone", line 11, in ansone
+    b[j]=a[i]
+IndexError: list assignment index out of range
+>>> ================================ RESTART ================================
+>>> 
+
+Traceback (most recent call last):
+  File "C:/Users/ananya goel/Desktop/ansone", line 19, in <module>
+    ansone()
+  File "C:/Users/ananya goel/Desktop/ansone", line 14, in ansone
+    c[k]=a[i]
+NameError: global name 'c' is not defined
+>>> ================================ RESTART ================================
+>>> 
+>>> ================================ RESTART ================================
+>>> 
+[None, None, None, None, None, None, None, None, None, None]
+[None, None, None, None, None, None, None, None, None]
+[12, 15, 18, 21, 24, 27, 30, 33, 36, 39, 42, 45, 48, 51, 54, 57, 60, 63, 66, 69]
+>>> ================================ RESTART ================================
+>>> 
+[None, None, None, None, None, None, None, None, None, None]
+[None, None, None, None, None, None, None, None, None]
+[12, 15, 18, 21, 24, 27, 30, 33, 36, 39, 42, 45, 48, 51, 54, 57, 60, 63, 66, 69]
+>>> ================================ RESTART ================================
+>>> 
+[None, None, None, None, None, None, None, None, None, None]
+[None, None, None, None, None, None, None, None, None]
+[12, 15, 18, 21, 24, 27, 30, 33, 36, 39, 42, 45, 48, 51, 54, 57, 60, 63, 66, 69]
+>>> for i in range (0,length(a)) :
+	print "hello"
+
+	
+
+Traceback (most recent call last):
+  File "<pyshell#29>", line 1, in <module>
+    for i in range (0,length(a)) :
+NameError: name 'length' is not defined
+>>> a=range(12,72,3)
+>>> a[1]
+15
+>>> b=[]
+>>> b[0]=a[1]
+
+Traceback (most recent call last):
+  File "<pyshell#33>", line 1, in <module>
+    b[0]=a[1]
+IndexError: list assignment index out of range
+>>> b=list()
+>>> b[0]=a[1]
+
+Traceback (most recent call last):
+  File "<pyshell#35>", line 1, in <module>
+    b[0]=a[1]
+IndexError: list assignment index out of range
+>>> ================================ RESTART ================================
+>>> 
+
+Traceback (most recent call last):
+  File "C:/Users/ananya goel/Desktop/ansone", line 20, in <module>
+    ansone()
+  File "C:/Users/ananya goel/Desktop/ansone", line 7, in ansone
+    b[:]=[]
+NameError: global name 'b' is not defined
+>>> ================================ RESTART ================================
+>>> 
+[None, None, None, None, None, None, None, None, None, None]
+[None, None, None, None, None, None, None, None, None]
+[12, 15, 18, 21, 24, 27, 30, 33, 36, 39, 42, 45, 48, 51, 54, 57, 60, 63, 66, 69]
+>>> ================================ RESTART ================================
+>>> 
+
+Traceback (most recent call last):
+  File "C:/Users/ananya goel/Desktop/ansone", line 20, in <module>
+    ansone()
+  File "C:/Users/ananya goel/Desktop/ansone", line 12, in ansone
+    b[j]=a(i)
+TypeError: 'list' object is not callable
+>>> ================================ RESTART ================================
+>>> 
+
+Traceback (most recent call last):
+  File "C:/Users/ananya goel/Desktop/ansone", line 20, in <module>
+    ansone()
+  File "C:/Users/ananya goel/Desktop/ansone", line 12, in ansone
+    b[j]=a[i]
+IndexError: list assignment index out of range
+>>> ================================ RESTART ================================
+>>> 
+[12, 18, 24, 30, 36, 42, 48, 54, 60, 66]
+[None, None, None, None, None, None, None, None, None]
+[12, 15, 18, 21, 24, 27, 30, 33, 36, 39, 42, 45, 48, 51, 54, 57, 60, 63, 66, 69]
+>>> ================================ RESTART ================================
+>>> 
+[12, 18, 24, 30, 36, 42, 48, 54, 60, 66]
+[15, 21, 27, 33, 39, 45, 51, 57, 63]
+[12, 15, 18, 21, 24, 27, 30, 33, 36, 39, 42, 45, 48, 51, 54, 57, 60, 63, 66, 69]
+>>> ================================ RESTART ================================
+>>> 
+
+Traceback (most recent call last):
+  File "C:/Users/ananya goel/Desktop/ansone", line 19, in <module>
+    ansone()
+  File "C:/Users/ananya goel/Desktop/ansone", line 16, in ansone
+    print "list with even numbers"+ b
+TypeError: cannot concatenate 'str' and 'list' objects
+>>> ================================ RESTART ================================
+>>> 
+list with even numbers [12, 18, 24, 30, 36, 42, 48, 54, 60, 66]
+list with odd numbers [15, 21, 27, 33, 39, 45, 51, 57, 63, 69]
+[12, 15, 18, 21, 24, 27, 30, 33, 36, 39, 42, 45, 48, 51, 54, 57, 60, 63, 66, 69]
+>>> descsort(a)
+
+Traceback (most recent call last):
+  File "<pyshell#36>", line 1, in <module>
+    descsort(a)
+NameError: name 'descsort' is not defined
+>>> sort(a)
+
+Traceback (most recent call last):
+  File "<pyshell#37>", line 1, in <module>
+    sort(a)
+NameError: name 'sort' is not defined
+>>> ================================ RESTART ================================
+>>> 
+list with even numbers [12, 18, 24, 30, 36, 42, 48, 54, 60, 66]
+list with odd numbers [15, 21, 27, 33, 39, 45, 51, 57, 63, 69]
+[12, 15, 18, 21, 24, 27, 30, 33, 36, 39, 42, 45, 48, 51, 54, 57, 60, 63, 66, 69]
+part 2
+
+Traceback (most recent call last):
+  File "C:/Users/ananya goel/Desktop/ansone", line 22, in <module>
+    ansone()
+  File "C:/Users/ananya goel/Desktop/ansone", line 21, in ansone
+    d=[a.sorted(c)]
+AttributeError: 'list' object has no attribute 'sorted'
+>>> ================================ RESTART ================================
+>>> 
+list with even numbers [12, 18, 24, 30, 36, 42, 48, 54, 60, 66]
+list with odd numbers [15, 21, 27, 33, 39, 45, 51, 57, 63, 69]
+[12, 15, 18, 21, 24, 27, 30, 33, 36, 39, 42, 45, 48, 51, 54, 57, 60, 63, 66, 69]
+part 2
+
+Traceback (most recent call last):
+  File "C:/Users/ananya goel/Desktop/ansone", line 22, in <module>
+    ansone()
+  File "C:/Users/ananya goel/Desktop/ansone", line 21, in ansone
+    d=[b.sort(),c.ort()]
+AttributeError: 'list' object has no attribute 'ort'
+>>> ================================ RESTART ================================
+>>> 
+list with even numbers [12, 18, 24, 30, 36, 42, 48, 54, 60, 66]
+list with odd numbers [15, 21, 27, 33, 39, 45, 51, 57, 63, 69]
+[12, 15, 18, 21, 24, 27, 30, 33, 36, 39, 42, 45, 48, 51, 54, 57, 60, 63, 66, 69]
+part 2
+>>> ================================ RESTART ================================
+>>> 
+list with even numbers [12, 18, 24, 30, 36, 42, 48, 54, 60, 66]
+list with odd numbers [15, 21, 27, 33, 39, 45, 51, 57, 63, 69]
+[12, 15, 18, 21, 24, 27, 30, 33, 36, 39, 42, 45, 48, 51, 54, 57, 60, 63, 66, 69]
+part 2
+[None, None]
+>>> ================================ RESTART ================================
+>>> 
+list with even numbers [12, 18, 24, 30, 36, 42, 48, 54, 60, 66]
+list with odd numbers [15, 21, 27, 33, 39, 45, 51, 57, 63, 69]
+[12, 15, 18, 21, 24, 27, 30, 33, 36, 39, 42, 45, 48, 51, 54, 57, 60, 63, 66, 69]
+part 2
+[None, None]
+>>> ================================ RESTART ================================
+>>> 
+list with even numbers [12, 18, 24, 30, 36, 42, 48, 54, 60, 66]
+list with odd numbers [15, 21, 27, 33, 39, 45, 51, 57, 63, 69]
+[12, 15, 18, 21, 24, 27, 30, 33, 36, 39, 42, 45, 48, 51, 54, 57, 60, 63, 66, 69]
+part 2
+(None, None)
+>>> ================================ RESTART ================================
+>>> 
+list with even numbers [12, 18, 24, 30, 36, 42, 48, 54, 60, 66]
+list with odd numbers [15, 21, 27, 33, 39, 45, 51, 57, 63, 69]
+[12, 15, 18, 21, 24, 27, 30, 33, 36, 39, 42, 45, 48, 51, 54, 57, 60, 63, 66, 69]
+part 2
+(None, None)
+>>> ================================ RESTART ================================
+>>> 
+list with even numbers [12, 18, 24, 30, 36, 42, 48, 54, 60, 66]
+list with odd numbers [15, 21, 27, 33, 39, 45, 51, 57, 63, 69]
+[12, 15, 18, 21, 24, 27, 30, 33, 36, 39, 42, 45, 48, 51, 54, 57, 60, 63, 66, 69]
+part 2
+('b', None)
+>>> ================================ RESTART ================================
+>>> 
+list with even numbers [12, 18, 24, 30, 36, 42, 48, 54, 60, 66]
+list with odd numbers [15, 21, 27, 33, 39, 45, 51, 57, 63, 69]
+[12, 15, 18, 21, 24, 27, 30, 33, 36, 39, 42, 45, 48, 51, 54, 57, 60, 63, 66, 69]
+part 2
+(None, None)
+>>> ================================ RESTART ================================
+>>> 
+list with even numbers [12, 18, 24, 30, 36, 42, 48, 54, 60, 66]
+list with odd numbers [15, 21, 27, 33, 39, 45, 51, 57, 63, 69]
+[12, 15, 18, 21, 24, 27, 30, 33, 36, 39, 42, 45, 48, 51, 54, 57, 60, 63, 66, 69]
+part 2
+None
+>>> ================================ RESTART ================================
+>>> 
+
+Traceback (most recent call last):
+  File "C:/Users/ananya goel/Desktop/ansone", line 25, in <module>
+    ansone()
+  File "C:/Users/ananya goel/Desktop/ansone", line 11, in ansone
+    b.insert(j,a[i])
+UnboundLocalError: local variable 'b' referenced before assignment
+>>> ================================ RESTART ================================
+>>> 
+list with even numbers [12, 18, 24, 30, 36, 42, 48, 54, 60, 66]
+[12, 18, 24, 30, 36, 42, 48, 54, 60, 66]
+list with odd numbers [15, 21, 27, 33, 39, 45, 51, 57, 63, 69]
+[12, 15, 18, 21, 24, 27, 30, 33, 36, 39, 42, 45, 48, 51, 54, 57, 60, 63, 66, 69]
+part 2
+None
+>>> ================================ RESTART ================================
+>>> 
+list with even numbers [12, 18, 24, 30, 36, 42, 48, 54, 60, 66]
+[12, 18, 24, 30, 36, 42, 48, 54, 60, 66]
+list with odd numbers [15, 21, 27, 33, 39, 45, 51, 57, 63, 69]
+[12, 15, 18, 21, 24, 27, 30, 33, 36, 39, 42, 45, 48, 51, 54, 57, 60, 63, 66, 69]
+part 2
+[12, 18, 24, 30, 36, 42, 48, 54, 60, 66]
+>>> ================================ RESTART ================================
+>>> 
+list with even numbers [12, 18, 24, 30, 36, 42, 48, 54, 60, 66]
+[12, 18, 24, 30, 36, 42, 48, 54, 60, 66]
+list with odd numbers [15, 21, 27, 33, 39, 45, 51, 57, 63, 69]
+[12, 15, 18, 21, 24, 27, 30, 33, 36, 39, 42, 45, 48, 51, 54, 57, 60, 63, 66, 69]
+part 2
+([12, 18, 24, 30, 36, 42, 48, 54, 60, 66], None)
+>>> ================================ RESTART ================================
+>>> 
+list with even numbers [12, 18, 24, 30, 36, 42, 48, 54, 60, 66]
+[12, 18, 24, 30, 36, 42, 48, 54, 60, 66]
+list with odd numbers [15, 21, 27, 33, 39, 45, 51, 57, 63, 69]
+[12, 15, 18, 21, 24, 27, 30, 33, 36, 39, 42, 45, 48, 51, 54, 57, 60, 63, 66, 69]
+part 2
+
+Traceback (most recent call last):
+  File "C:/Users/ananya goel/Desktop/ansone", line 25, in <module>
+    ansone()
+  File "C:/Users/ananya goel/Desktop/ansone", line 22, in ansone
+    b=descsort(b)
+NameError: global name 'descsort' is not defined
+>>> a=[1,2,3,4]
+>>> sort(a)
+
+Traceback (most recent call last):
+  File "<pyshell#39>", line 1, in <module>
+    sort(a)
+NameError: name 'sort' is not defined
+>>> sorted(a)
+[1, 2, 3, 4]
+>>> dsorted(a)
+
+Traceback (most recent call last):
+  File "<pyshell#41>", line 1, in <module>
+    dsorted(a)
+NameError: name 'dsorted' is not defined
+>>> help sorted
+SyntaxError: invalid syntax
+>>> help sorted()
+SyntaxError: invalid syntax
+>>> ================================ RESTART ================================
+>>> 
+list with even numbers [12, 18, 24, 30, 36, 42, 48, 54, 60, 66]
+[12, 18, 24, 30, 36, 42, 48, 54, 60, 66]
+list with odd numbers [15, 21, 27, 33, 39, 45, 51, 57, 63, 69]
+[12, 15, 18, 21, 24, 27, 30, 33, 36, 39, 42, 45, 48, 51, 54, 57, 60, 63, 66, 69]
+part 2
+([66, 60, 54, 48, 42, 36, 30, 24, 18, 12], [69, 63, 57, 51, 45, 39, 33, 27, 21, 15])
+>>> ================================ RESTART ================================
+>>> 
+list with even numbers [12, 18, 24, 30, 36, 42, 48, 54, 60, 66]
+[12, 18, 24, 30, 36, 42, 48, 54, 60, 66]
+list with odd numbers [15, 21, 27, 33, 39, 45, 51, 57, 63, 69]
+[12, 15, 18, 21, 24, 27, 30, 33, 36, 39, 42, 45, 48, 51, 54, 57, 60, 63, 66, 69]
+part 2
+([66, 60, 54, 48, 42, 36, 30, 24, 18, 12], [69, 63, 57, 51, 45, 39, 33, 27, 21, 15])
+>>> ================================ RESTART ================================
+>>> 
+enter number of strings2
+enter stringabc
+
+Traceback (most recent call last):
+  File "C:/Users/ananya goel/Desktop/anstwo", line 7, in <module>
+    anstwo()
+  File "C:/Users/ananya goel/Desktop/anstwo", line 5, in anstwo
+    str[i]=raw_input("enter string")
+TypeError: 'type' object does not support item assignment
+>>> ================================ RESTART ================================
+>>> 
+enter number of strings2
+enter stringa
+
+Traceback (most recent call last):
+  File "C:/Users/ananya goel/Desktop/anstwo", line 7, in <module>
+    anstwo()
+  File "C:/Users/ananya goel/Desktop/anstwo", line 5, in anstwo
+    str1[i]=raw_input("enter string")
+NameError: global name 'str1' is not defined
+>>> ================================ RESTART ================================
+>>> 
+enter number of strings3
+enter stringa
+0
+
+Traceback (most recent call last):
+  File "C:/Users/ananya goel/Desktop/anstwo", line 8, in <module>
+    anstwo()
+  File "C:/Users/ananya goel/Desktop/anstwo", line 7, in anstwo
+    a[i]=string
+NameError: global name 'a' is not defined
+>>> ================================ RESTART ================================
+>>> 
+enter number of strings2
+enter stringa
+0
+
+Traceback (most recent call last):
+  File "C:/Users/ananya goel/Desktop/anstwo", line 9, in <module>
+    anstwo()
+  File "C:/Users/ananya goel/Desktop/anstwo", line 8, in anstwo
+    a[i]=string
+IndexError: list assignment index out of range
+>>> ================================ RESTART ================================
+>>> 
+enter number of strings2
+enter stringa
+0
+enter stringb
+1
+>>> ================================ RESTART ================================
+>>> 
+enter number of strings2
+
+Traceback (most recent call last):
+  File "C:/Users/ananya goel/Desktop/anstwo", line 9, in <module>
+    anstwo()
+  File "C:/Users/ananya goel/Desktop/anstwo", line 6, in anstwo
+    string=raw_input("enter string",i+1)
+TypeError: [raw_]input expected at most 1 arguments, got 2
+>>> ================================ RESTART ================================
+>>> 
+enter number of strings2
+enter string1
+enter string2
+>>> ================================ RESTART ================================
+>>> 
+enter number of strings2
+enter stringa
+enter stringb
+{'b': 1}
+>>> ================================ RESTART ================================
+>>> 
+enter number of strings2
+enter stringa
+enter stringb
+{'b': 1}
+>>> ================================ RESTART ================================
+>>> 
+enter number of strings2
+enter stringa
+enter stringb
+{'b': 1}
+>>> ================================ RESTART ================================
+>>> 
+enter number of strings2
+enter stringa
+enter stringb
+{'a': 1, 'b': 1}
+>>> ================================ RESTART ================================
+>>> 
+enter number of strings1
+enter string2
+{'2': 1}
+enter the string to find length2
+>>> ================================ RESTART ================================
+>>> 
+enter number of strings3
+enter stringabc
+enter stringbc
+enter stringc
+{'c': 1, 'abc': 3, 'bc': 2}
+enter the string to find lengthbc
+2
+>>> 

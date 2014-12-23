@@ -1,0 +1,16 @@
+#anstwo
+def anstwo():
+    a=[]
+    menu={}
+    n=input("enter number of strings")
+    for i in range(0,n):
+        string=raw_input("enter string")
+        a.insert(i,string)
+    for i in range(0,n):
+        string=a[i]
+        d=len(a[i])
+        menu[string]=d;
+    print menu
+    stringcheck=raw_input("enter the string to find length")
+    print menu[stringcheck]
+anstwo()

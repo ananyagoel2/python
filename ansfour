@@ -1,0 +1,14 @@
+import random
+import cProfile
+def ansfour():
+    a = [[random.randint(0,9) for row in range(3)] for col in range(3)]
+    b = [[random.randint(9,18) for row in range(3)] for col in range(3)]
+    print a
+    print b
+    c = [[0 for row in range(0,3)] for col in range(0,3)]
+    for i in range(len(a)):
+        for j in range(len(b[0])):
+            for k in range(len(b)):
+                c[i][j] += a[i][k]*b[k][j]
+    print c
+ansfour()
